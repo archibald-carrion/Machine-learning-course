@@ -18,7 +18,10 @@ sns.heatmap(corr, annot = True, vmin=-1, vmax=1, center= 0, cmap= 'coolwarm')
 # Densidad
 sns.pairplot(pima, diag_kind="kde")
 
+
+
 Indique cuales son las 3 variables con mayor correlación con insulina.
+
 
 Cree una regresión lineal en la que la glucosa sea la variable independiente y la insulina la variable dependiente.
 

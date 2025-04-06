@@ -14,6 +14,8 @@ Note: It's important to note that this repository only contains very small proje
 - [Titanic Predictive Analysis](https://github.com/archibald-carrion/Machine-learning-course/tree/main/titanic_predictive_analysis) using a multitude of basic algorithms (KNN, Random Forests, etc.)
 
 ## 📂 Repository Structure
+    
+```bash
 ./
 ├── README.md
 ├── diabetes_linear_regression
@@ -34,7 +36,7 @@ Note: It's important to note that this repository only contains very small proje
         ├── Titanic_Predictive_Analysis.ipynb
         ├── test.csv
         └── train.csv
-
+```
 
 ## Related Projects
 - [Convulotional neural network](https://github.com/archibald-carrion/Convolutional-neural-networks-sound-classification) used to detect sound of an ambulance.
