@@ -16,11 +16,9 @@ Note: It's important to note that this repository only contains very small proje
 ## 📂 Repository Structure
     
 ```bash
-./
+.
 ├── README.md
 ├── diabetes_linear_regression
-│   ├── Matemática_Simbólica.ipynb
-│   ├── Regresión Lineal.ipynb
 │   ├── diabetes.csv
 │   ├── diabetes_analysis.ipynb
 │   └── task.txt
@@ -41,3 +39,4 @@ Note: It's important to note that this repository only contains very small proje
 ## Related Projects
 - [Convulotional neural network](https://github.com/archibald-carrion/Convolutional-neural-networks-sound-classification) used to detect sound of an ambulance.
 - [Prolog](https://github.com/archibald-carrion/Restaurant-food-composition-system) Expert Systems/Knowledge-Based Systems used to check given on data from a restaurant menu and clients which is the best dish to order.
+- [Smart decompiler](https://github.com/archibald-carrion/decompiler) used to decompile code from X86 assembly to a more readble C code.
