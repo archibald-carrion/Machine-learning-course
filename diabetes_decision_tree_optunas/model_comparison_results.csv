@@ -1,0 +1,6 @@
+Method,Accuracy,Precision_0,Recall_0,F1_0,Precision_1,Recall_1,F1_1,Macro_avg_f1,Weighted_avg_f1
+Linear Regression LASSO,0.7414,0.79,0.83,0.81,0.64,0.57,0.61,0.71,0.74
+Decision Tree Classifier,0.759,0.82,0.82,0.82,0.65,0.65,0.65,0.73,0.76
+Latin Hypercube Sampling,0.629,0.71,0.74,0.72,0.46,0.42,0.44,0.58,0.63
+Optuna,0.767,0.85,0.79,0.82,0.64,0.72,0.68,0.75,0.77
+GridSearchCV,0.802,0.84,0.86,0.85,0.72,0.7,0.71,0.78,0.8
