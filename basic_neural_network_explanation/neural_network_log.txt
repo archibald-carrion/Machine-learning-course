@@ -1,0 +1,68 @@
+================================================================================
+🧠 NEURAL NETWORK FORWARD PASS CALCULATION LOG
+================================================================================
+📅 Timestamp: 2025-06-07 11:38:37
+🏗️  Architecture: 4 Input → 3 Hidden → 2 Output
+⚡ Activation Function: Sigmoid
+
+📊 INPUT DATA
+----------------------------------------
+🔢 Input Vector x: [2, 3, -1, 2]
+
+🔗 Weight Matrix W1 (Input → Hidden):
+   Row 1: [2, 3, 0, 1]
+   Row 2: [4, 3, 2, 0]
+   Row 3: [1, 1, 1, 2]
+
+🔗 Weight Matrix W2 (Hidden → Output):
+   Row 1: [1, 7, 1]
+   Row 2: [7, 1, 4]
+
+⚖️  Bias Vector b: [-6, -2]
+
+🚀 FORWARD PASS COMPUTATION
+----------------------------------------
+📍 STEP 1: Input → Hidden Layer
+   🧮 Pre-activation z1 = W1 × x
+   z1[1] = 2×2 + 3×3 + 0×-1 + 1×2 = 15
+   z1[2] = 4×2 + 3×3 + 2×-1 + 0×2 = 15
+   z1[3] = 1×2 + 1×3 + 1×-1 + 2×2 = 8
+
+   ⚡ Applying Sigmoid Activation:
+   a1[1] = σ(15) = 1.000000
+   a1[2] = σ(15) = 1.000000
+   a1[3] = σ(8) = 0.999665
+
+📍 STEP 2: Hidden → Output Layer
+   🧮 Pre-activation z2 = W2 × a1 + b
+   z2[1] = 1×1.000000 + 7×1.000000 + 1×0.999665 + -6 = 2.999662
+   z2[2] = 7×1.000000 + 1×1.000000 + 4×0.999665 + -2 = 9.998656
+
+   ⚡ Applying Sigmoid Activation:
+   a2[1] = σ(2.999662) = 0.952559
+   a2[2] = σ(9.998656) = 0.999955
+
+🎯 FINAL RESULTS
+----------------------------------------
+🔹 Hidden Layer Output: ['1.000000', '1.000000', '0.999665']
+🔹 Network Final Output: ['0.952559', '0.999955']
+
+📐 MATHEMATICAL FORMULAS REFERENCE
+----------------------------------------
+🔸 Linear Transformation: z = W × a + b
+🔸 Sigmoid Activation: σ(x) = 1 / (1 + e^(-x))
+🔸 Forward Propagation:
+   • Hidden Layer: a1 = σ(W1 × x)
+   • Output Layer: a2 = σ(W2 × a1 + b)
+
+📋 NETWORK SUMMARY
+----------------------------------------
+📌 Total Parameters: 20
+📌 W1 Parameters: 12 (3×4)
+📌 W2 Parameters: 6 (2×3)
+📌 Bias Parameters: 2
+📌 Network Depth: 3 layers
+
+================================================================================
+✅ NEURAL NETWORK COMPUTATION COMPLETED SUCCESSFULLY
+================================================================================
