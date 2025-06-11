@@ -1,0 +1,8 @@
+Move all files from mnist_cluster_execution to mnist_cnn_cluster:
+- Introducción_a_las_redes_neuronales_convolucionales.ipynb
+- mnist.py
+- mnist_784.csv
+- run_mnist.sh
+- run_mnist_12479.out
+
+You can then delete the old mnist_cluster_execution folder.
